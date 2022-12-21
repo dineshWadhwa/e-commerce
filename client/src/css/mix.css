@@ -145,11 +145,15 @@ form .btn2:hover {
 }
 
 /* product */
-.card {
+.pcard {
   background-color: #fff;
-  border-radius: none !important
+  /* border: 1px solid black; */
 }
 
+.pcard:hover{
+  background-color: rgb(250, 248, 248);
+  border-radius: 15px;
+}
 .figure {
   width: auto;
   display: flex;
@@ -158,17 +162,17 @@ form .btn2:hover {
   position: relative;
   overflow: hidden;
   transition: all 0.5s linear;
-  margin: 0.5rem;
+  margin: 0.1rem;
 }
 
 .cardimg {
   max-width: 90%;
-  margin: 1rem;
+  margin: 0.5rem;
   height: auto;
 }
 
 .card-data {
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 .card-data-flex {
   margin: 1rem 0;
@@ -187,8 +191,8 @@ h4 {
   top: 12%;
   right: 0%;
   text-transform: uppercase;
-  background-color: #F6F8FA;
-  color:#8490ff;
+  background-color: #f6f8fa;
+  color: #8490ff;
   padding: 0.8rem 2rem;
   font-size: 1rem;
   opacity: 0.8;
@@ -229,8 +233,6 @@ h4 {
   text-transform: uppercase;
   color: #5138ee;
 }
-
-
 
 /* singlepage */
 .spageimg {
@@ -325,10 +327,10 @@ hr {
 .btn2 {
   display: block;
   width: 40%;
-  padding: 1rem 0.5rem ;
+  padding: 1rem 0.5rem;
   border: none;
   outline: none;
-  border-radius: 30px ;
+  border-radius: 30px;
   background-color: #1a365d;
   color: #fff;
   font-weight: 600;
@@ -336,14 +338,55 @@ hr {
   margin-top: 10px;
   cursor: pointer;
   transition: all 0.3s;
-
 }
- 
 
- .btn2:hover {
+.btn2:hover {
   background-color: #97a1b1;
 }
 
 a {
   text-decoration: none;
+}
+
+/* sort section */
+
+.sort-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0.5rem;
+}
+
+.sorting-list{
+  display: flex;
+  gap: 1rem;
+}
+
+.sort-btn {
+  padding: 0.4rem 0.6rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.sorticon {
+  font-size: 1.2rem;
+}
+.sortactive {
+  background-color: black;
+  color: #fff;
+}
+
+.sort-selection .sort-selection--style {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.sort-select--option {
+  padding: 0.5rem 0;
+  cursor: pointer;
+  height: 2rem;
+  padding: 10px;
+}
+.product-data{
+  font-size : 1rem;
 }

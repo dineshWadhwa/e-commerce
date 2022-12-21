@@ -88,7 +88,7 @@ const Header = () => {
           <NavLink className="navbar-brand" to="/">
             MERN Store
           </NavLink>
-          <form className="d-flex mx-3" role="search">
+          {/* <form className="d-flex mx-3" role="search">
             <input
               className="form-control me-2"
               type="search"
@@ -98,7 +98,7 @@ const Header = () => {
             <button className="btn btn-outline-success" type="submit">
               Search
             </button>
-          </form>
+          </form> */}
 
           <button
             className="navbar-toggler"
@@ -159,7 +159,7 @@ const Header = () => {
                 }}
               >
                 {logindata.ValidUserOne ? (
-                  <>[
+                  <>
                     <MenuItem
                       onClick={() => {
                         goDash();
@@ -176,7 +176,7 @@ const Header = () => {
                     >
                       Logout
                     </MenuItem>
-                  ]</>
+                  </>
                 ) : (
                   <>
                     <MenuItem
@@ -201,7 +201,7 @@ const Header = () => {
                         handleClose();
                       }}
                     >
-                      SignIn
+                      SignUp
                     </MenuItem>
                   </>
                 )}

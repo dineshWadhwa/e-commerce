@@ -107,7 +107,7 @@ const Login = () => {
               Login
             </button>
             <p>
-              Don,t have an Account ? <NavLink to="/register">Sign In</NavLink>
+              Don,t have an Account ? <NavLink to="/register">Sign Up</NavLink>
             </p>
           </form>
         </div>
