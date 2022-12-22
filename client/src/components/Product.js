@@ -14,7 +14,7 @@ const Product = (curElem) => {
 
         <div className="card-data">
           <div className="card-data-flex">
-            <h4>{name}</h4>
+            <h5>{name}</h5>
             <p className="card-data--price">${price}</p>
           </div>
         </div>

@@ -150,7 +150,7 @@ form .btn2:hover {
   /* border: 1px solid black; */
 }
 
-.pcard:hover{
+.pcard:hover {
   background-color: rgb(250, 248, 248);
   border-radius: 15px;
 }
@@ -175,20 +175,19 @@ form .btn2:hover {
   padding: 0 0.5rem;
 }
 .card-data-flex {
-  margin: 1rem 0;
+  margin: 5px 0;
   font-size: 1rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
-h4 {
+h5 {
   color: rgba(29, 29, 29, 0.8);
   text-transform: capitalize;
   text-decoration: none;
 }
 .caption {
   position: absolute;
-  top: 12%;
+  top: 10%;
   right: 0%;
   text-transform: uppercase;
   background-color: #f6f8fa;
@@ -356,7 +355,7 @@ a {
   margin: 0 0.5rem;
 }
 
-.sorting-list{
+.sorting-list {
   display: flex;
   gap: 1rem;
 }
@@ -387,6 +386,25 @@ a {
   height: 2rem;
   padding: 10px;
 }
-.product-data{
-  font-size : 1rem;
+.product-data {
+  font-size: 1rem;
+}
+
+/* filtersection */
+
+.filter-section {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+h3 {
+  padding: 2rem 0;
+  font-size: bold;
+}
+
+.filter-search input {
+  padding: 2px 2px;
+  width: 100%;
 }
